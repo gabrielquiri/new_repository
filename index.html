@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Easy tourism</title>
+</head>
+<body>
+    <header class="sticky">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Easy tourism</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#viagens">Viagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="inicio"></div>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2500" class="carousel-item active">
+                    <img class="d-block w-100" src="img/foto_1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Estados Unidos</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src="img/foto_2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Índia</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src= "img/foto_3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Malásia</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="sticky">
+        <section id="viagens">
+            <div class="container">
+                <h3>Viagens para você</h3>
+                <div class="borda"></div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/frança.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">França</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/estados unidos.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Estados Unidos</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/suiça.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Suiça</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/dubai.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Dubai</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/Japao.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Japão</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/china.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">China</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <h3>Promoções para sua viagem</h3>
+                <div class="borda"></div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/mexico.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">México</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/nova zelândia.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Nova Zelândia</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/australia.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Austrália</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/malásia.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Malásia</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/india.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Índia</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Passagens para :
+                                </div>
+                                <img src="img/myanmar.jpg" alt="" srcset="">
+                                <div class="card-body">
+                                    <h4 class="card-tittle">Myanmar</h4>
+                                    <h5 class="card-subtitle">Confira já</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem eum doloremque modi exercitationem perspiciatis perferendis repudiandae provident in, quos vero reprehenderit corporis incidunt eos asperiores officiis quia pariatur! Ratione.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="sobre" class="container">
+            <div class="containe">
+                <h3>
+                    Sobre nós
+                </h3>
+                <div class="borda"></div>
+            </div>
+            <div class="container">
+                <img src="img/foto_16.jpg" alt="">
+                <div>
+                    <h3>Easy tourism</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni suscipit eos ea voluptatum laboriosam ab est unde atque esse, fugit maiores minima aliquam enim rem earum aliquid neque accusantium eum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis doloremque delectus, omnis non modi dolores sunt architecto numquam, esse autem veniam quisquam nesciunt maxime! Nesciunt pariatur magnam tempora dolorem?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dolore in earum architecto corporis corrupti vero, aliquam delectus totam. Deleniti quibusdam aspernatur facilis voluptatibus tempore ratione, nisi tempora repellat odio!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolores, fugiat quidem fuga ullam, harum non facere alias tempore cum aliquid labore adipisci quo soluta reprehenderit mollitia voluptatibus recusandae! Itaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae unde sapiente magnam iure modi dicta optio omnis aliquam soluta aut, debitis in saepe amet voluptate ipsum deserunt. Suscipit, quia.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h3>contato</h3>
+                <div class="borda"></div>
+                <h3>Entre em contato</h3>
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <label class="form-label" for="nome">Nome :</label>
+                            <input class="form-control" type="text" id="nome">
+                            <label class="form-label" for="nome">Sobrenome :</label>
+                            <input class="form-control" type="text" id="nome">
+                            <label for="email" class="form-label">Seu e-mail :</label>
+                            <input id="email" type="email" class="form-control">
+                            <label for="numero" class="form-label">Seu telefone :</label>
+                            <input id="numero" type="tel" class="form-control">
+                            <label for="mensagem" class="form-label">Sua mensagem :</label>
+                            <textarea class="form-control" id="mensagem"></textarea>
+                            <div class="form-check form-switch">
+                                <label for="aceito-termos" class="form-check-label">Li e concordo com os termos do site</label>
+                                <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                            <button class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="rodape">
+            <div class="container">
+                <h3>Nós acompanhe nas redes sociais</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <img src="img/logoface.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/logoinstagram.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/logoyoutube.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <h3>
+                        Telefone para contato
+                    </h3>
+                    <h4>
+                        +55 (19) 99125-6543
+                    </h4>
+                    <h3>
+                        Venha ate nós
+                    </h3>
+                    <p>
+                        Rua Broadway 1876, Nova York, NY, EUA
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        &copy; <em>Easy tourism - all rights reserved - 2023</em>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
